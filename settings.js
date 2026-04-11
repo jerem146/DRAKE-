@@ -16,7 +16,7 @@ global.sessionName = 'Sessions/Owner'
 
 /*━━━━━━━━━━━【 INFO BOT 】━━━━━━━━━━━*/
 global.version = 'v2.0'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝔇ĕ𝐬†𝓻⊙γ𒆜'
+global.dev = 'JEREMY'
 
 global.links = {
   api: 'https://api.yuki-wabot.my.id'
