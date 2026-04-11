@@ -1,16 +1,18 @@
 export const bodyMenu = `> 𖧧 ¡Hola! *@$sender*, Soy *DRAKE*, Aquí tienes la lista de comandos$cat
 
-╭┈ࠢ͜┅ࠦ͜͜╾݊͜─ؕ͜─ׄ͜─֬͜─֟͜─֫͜─ׄ͜─ؕ͜─݊͜┈ࠦ͜┅ࠡ͜͜┈࠭͜͜۰۰͜۰
-│✿ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ::* $owner
-│ꕥ *ᴛʏᴘᴇ ::* $botType
-│⸙ *ᴠᴇʀsɪᴏɴ ::* ^3.0 - Latest
-│⚘ *sʏsᴛᴇᴍ/ᴏᴘʀ ::* $device
-│○ *ᴛɪᴍᴇ ::* $tiempo, $tempo
-│𓏸 *ᴜsᴇʀs ::* $users
-│○ *ᴜʀʟ ::* $link
-╰ׅ┈ࠢ͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴ ⋱࣭ ᩴ  ⋮֔   ᩴ ⋰╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜┈ࠢ͜╯ׅ
-> Vincula un *Socket* con tu número utilizando *$prefixqr* o *$prefixcode*.
-‧꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷︶꒷˚₊‧꒷꒥꒷︶꒷‧`
+╔═━「 ◆ DRAKE SYSTEM ◆ 」━═╗
+║ 
+╠⟆ ᴅᴇᴠ :: @${owner}
+╠⟆ ᴍᴏᴅᴇ :: ${botType} 
+╠⟆ ᴠᴇʀ :: v3.0_LATEST
+╠⟆ ᴏs :: ${device}
+╠⟆ ᴛɪᴍᴇ :: ${tiempo} | ${tempo}
+╠⟆ ᴜsᴇʀs :: ${users}
+╠⟆ ʟɪɴᴋ :: ${link}
+║
+╚═━「 CONNECTING... 」━═╝
+> Inicia sesión vía Socket: ${prefixqr} / ${prefixcode}
+[█▒▒▒▒▒▒▒▒▒] 10% LOADING...`
 export const menuObject = {
 economia: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ECONOMY* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
 > ✐ Comandos de Economía para ganar dinero y divertirte con tus amigos.
