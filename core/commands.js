@@ -8,7 +8,7 @@ export const bodyMenu = `> 𖧧 ¡Hola! *@$sender*, Soy *DRAKE*, Aquí tienes la
 ┃❖ ᴛɪᴍᴇ       : $tiempo
 ┃❖ ᴜsᴇʀs      : $users
 ┃❖ ᴜʀʟ        : $link
-╰━━━〔 ⚘ 𝘾𝘼𝙍𝙇𝙔 - 𝘽𝙊𝙏 ⚘ 〕━━━⬣
+╰━━━〔 ⚘ DRAKE - 𝘽𝙊𝙏 ⚘ 〕━━━⬣
 
 ✦ Vincula tu número de forma segura:
 ┃➤ Usa: $prefixqr
@@ -64,51 +64,48 @@ economia: `
 └────────────────────
 
 ╰━━━〔 ✦ 𝙍𝙞𝙘𝙝 𝙎𝙮𝙨𝙩𝙚𝙢 ✦ 〕━━━⬣`,
-gacha: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *GACHA* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✐ Comandos de Gacha para reclamar y intercambiar personajes.
-ꕤ *$prefixbuycharacter » $prefixbuychar » $prefixbuyc* + <waifu>
-> Comprar un personaje en venta.
-ꕤ *$prefixcharimage » $prefixwaifuimage » $prefixcimage » $prefixwimage* + <waifu>
-> Ver una imagen aleatoria de un personaje.
-ꕤ *$prefixcharinfo » $prefixwinfo » $prefixwaifuinfo* + <waifu>
-> Ver información de un personaje.
-ꕤ *$prefixclaim » $prefixc » $prefixreclamar* + <cite / waifu>
-> Reclamar un personaje.
-ꕤ *$prefixdelclaimmsg*
-> Restablecer el mensaje al reclamar un personaje.
-ꕤ *$prefixdeletewaifu » $prefixdelwaifu » $prefixdelchar* + <waifu>
-> Eliminar un personaje reclamado.
-ꕤ *$prefixfavoritetop » $prefixfavtop*
-> Ver el top de personajes favoritos.
-ꕤ *$prefixgachainfo » $prefixginfo » $prefixinfogacha*
-> Ver tu información de gacha.
-ꕤ *$prefixgiveallharem* + <mention>
-> Regalar todos tus personajes a otro usuario.
-ꕤ *$prefixgivechar » $prefixgivewaifu » $prefixregalar* + <waifu / mention>
-> Regalar un personaje a otro usuario.
-ꕤ *$prefixharem » $prefixwaifus » $prefixclaims* + <mention>
-> Ver tus personajes reclamados.
-ꕤ *$prefixharemshop » $prefixtiendawaifus » $prefixwshop* + <page>
-> Ver los personajes en venta.
-ꕤ *$prefixremovesale » $prefixremoverventa* + <waifu>
-> Eliminar un personaje en venta.
-ꕤ *$prefixrollwaifu » $prefixrw » $prefixroll*
-> Waifu o husbando aleatorio.
-ꕤ *$prefixsell » $prefixvender* + <value> <waifu>
-> Poner un personaje a la venta.
-ꕤ *$prefixserieinfo » $prefixainfo » $prefixanimeinfo* <name>
-> Información de un anime.
-ꕤ *$prefixserielist » $prefixslist » $prefixanimelist*
-> Listar series del bot.
-ꕤ *$prefixsetclaimmsg » $prefixsetclaim* + <text>
-> Modificar el mensaje al reclamar un personaje.
-ꕤ *$prefixtrade » $prefixintercambiar* + <tu personaje / personaje 2>
-> Intercambiar un personaje con otro usuario.
-ꕤ *$prefixvote » $prefixvotar* + <waifu>
-> Votar por un personaje para subir su valor.
-ꕤ *$prefixwaifusboard » $prefixwaifustop » $prefixtopwaifus » $prefixwtop* + <page>
-> Ver el top de personajes con mayor valor.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ`,
+gacha: `╔═━─━─━〔 🔮 𝙂𝘼𝘾𝙃𝘼 𝘼𝙍𝘾𝘼𝙉𝙊 〕━─━─━═╗
+║ ✧ Invoca almas • Domina destinos ✧
+╚═━─━─━──────────────━─━─━═╝
+
+⟡ 〔 🜂 INVOCACIÓN 〕
+↳ $prefixroll | $prefixrw
+↳ $prefixclaim | $prefixc
+
+⟡ 〔 🜁 COLECCIÓN 〕
+↳ $prefixharem | $prefixwaifus
+↳ $prefixcharinfo | $prefixwinfo
+↳ $prefixcharimage | $prefixwimage
+↳ $prefixdelchar
+
+⟡ 〔 🜃 MERCADO 〕
+↳ $prefixwshop | $prefixharemshop
+↳ $prefixbuyc | $prefixbuycharacter
+↳ $prefixsell | $prefixvender
+↳ $prefixremovesale
+
+⟡ 〔 🜄 PACTOS 〕
+↳ $prefixgivechar | $prefixregalar
+↳ $prefixtrade | $prefixintercambiar
+↳ $prefixgiveallharem
+
+⟡ 〔 ✧ DOMINIO 〕
+↳ $prefixwaifustop | $prefixwtop
+↳ $prefixfavtop
+↳ $prefixvote | $prefixvotar
+
+⟡ 〔 📜 CRÓNICAS 〕
+↳ $prefixanimeinfo | $prefixserieinfo
+↳ $prefixanimelist | $prefixserielist
+
+⟡ 〔 ⚙️ RITUALES 〕
+↳ $prefixginfo | $prefixgachainfo
+↳ $prefixsetclaimmsg
+↳ $prefixdelclaimmsg
+
+╔═━─━─━──────────────━──━═╗
+║ ✦ 𝙂𝙖𝙘𝙝𝙖 • 𝘾𝙊𝙍𝙀 ✦ ║
+╚═━─━─━──────────────━─━─═`,
 downloads: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *DOWNLOAD* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
 > ✐ Comandos de Descargas para descargar archivos de varias fuentes.
 ꕤ *$prefixfacebook » $prefixfb* + <url>
