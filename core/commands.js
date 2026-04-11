@@ -64,9 +64,10 @@ economia: `
 └────────────────────
 
 ╰━━━〔 ✦ 𝙍𝙞𝙘𝙝 𝙎𝙮𝙨𝙩𝙚𝙢 ✦ 〕━━━⬣`,
-gacha: `╔═━─━─━〔 🔮 𝙂𝘼𝘾𝙃𝘼 𝘼𝙍𝘾𝘼𝙉𝙊 〕━─━─━═╗
-║ ✧ Invoca almas • Domina destinos ✧
-╚═━─━─━──────────────━─━─━═╝
+gacha: `
+╔═━〔 🔮 𝙂𝘼𝘾𝙃𝘼 𝘼𝙍𝘾𝘼𝙉𝙊 〕━━═╗
+║ ✧ Invoca almas•Domina destinos ✧
+╚═━─━────────━─━─━═╝
 
 ⟡ 〔 🜂 INVOCACIÓN 〕
 ↳ $prefixroll | $prefixrw
