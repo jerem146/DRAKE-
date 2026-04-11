@@ -16,59 +16,54 @@ export const bodyMenu = `> 𖧧 ¡Hola! *@$sender*, Soy *DRAKE*, Aquí tienes la
 
 ╰─❖ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 ᗪ卂尺Ҝ ❖─╯`
 export const menuObject = {
-economia: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ECONOMY* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✐ Comandos de Economía para ganar dinero y divertirte con tus amigos.
-ꕤ *$prefixw » $prefixwork » $prefixtrabajar*
-> Ganar coins trabajando.
-ꕤ *$prefixbalance » $prefixbal » $prefixcoins* + <mention>
-> Ver cuantos coins tienes.
-ꕤ *$prefixcoinflip » $prefixflip » $prefixcf* + <cantidad / cara|cruz>
-> Apostar coins en un cara o cruz.
-ꕤ *$prefixcrime » $prefixcrimen*
-> Ganar coins rapido.
-ꕤ *$prefixdaily » $prefixdiario*
-> Reclamar tu recompensa diaria.
-ꕤ *$prefixdeposit » $prefixdep » $prefixdepositar » $prefixd* + <cantidad|all>
-> Depositar tus coins en el banco.
-ꕤ *$prefixeconomyboard » $prefixeboard » $prefixbaltop* + <page>
-> Ver el ranking de usuarios con más coins.
-ꕤ *$prefixcasino » $prefixapostar » $prefixslot* + <amount>
-> Apostar coins en el casino.
-ꕤ *$prefixeconomyinfo » $prefixeinfo*
-> Ver tu información de economía en el grupo.
-ꕤ *$prefixgivecoins » $prefixpay » $prefixcoinsgive* + <cantidad|all / mention>
-> Dar coins a un usuario.
-ꕤ *$prefixroulette » $prefixrt » $prefixruleta* + <cantidad / red|black|green>
-> Apostar coins en una ruleta.
-ꕤ *$prefixslut » $prefixprostituirse*
-> Ganar coins prostituyéndote.
-ꕤ *$prefixsteal » $prefixrobar » $prefixrob* + <mention>
-> Intentar robar coins a un usuario.
-ꕤ *$prefixwithdraw » $prefixwith » $prefixretirar* + <cantidad|all>
-> Retirar tus coins en el banco.
-ꕤ *$prefixminar » $prefixmine*
-> Realizar trabajos de minería y ganar coins.
-ꕤ *$prefixcofre » $prefixcoffer*
-> Reclamar tu cofre diario.
-ꕤ *$prefixweekly » $prefixsemanal*
-> Reclamar tu recompensa semanal.
-ꕤ *$prefixmonthly » $prefixmensual*
-> Reclamar tu recompensa mensual.
-ꕤ *$prefixaventura » $prefixadventure*
-> Ir de Aventuras para ganar coins.
-ꕤ *$prefixcurar » $prefixheal*
-> Curar salud para salir de aventuras.
-ꕤ *$prefixcazar » $prefixhunt*
-> Cazar animales para ganar coins.
-ꕤ *$prefixfish » $prefixpescar*
-> Ganar coins pescando.
-ꕤ *$prefixmazmorra » $prefixdungeon*
-> Explorar mazmorras para ganar coins.
-ꕤ *$prefixmath » $prefixmates* + <difficulty>
-> Iniciar un juego de matemáticas.
-ꕤ *$prefixppt* + <piedra|papel|tijera>
-> Jugar piedra, papel o tijera con el bot y gana o pierde coins.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ`,
+economia: `
+╭━━━〔 👑 𝙀𝘾𝙊𝙉𝙊𝙈𝙄́𝘼 𝙀𝙇𝙄𝙏𝙀 〕━━━⬣
+│ ✧ Sistema de gestión y riqueza
+╰━━━━━━━━━━━━━━━━━━━━⬣
+
+┌─〔 💼 𝙂𝙀𝙉𝙀𝙍𝘼𝙍 〕
+│ ◈ $prefixwork • $prefixtrabajar
+│ ◈ $prefixmine • $prefixminar
+│ ◈ $prefixhunt • $prefixcazar
+│ ◈ $prefixfish • $prefixpescar
+└────────────────────
+
+┌─〔 🏦 𝙁𝙄𝙉𝘼𝙉𝙕𝘼𝙎 〕
+│ ◈ $prefixbalance • $prefixbal
+│ ◈ $prefixdeposit • $prefixdep
+│ ◈ $prefixwithdraw • $prefixwith
+│ ◈ $prefixpay • $prefixgivecoins
+└────────────────────
+
+┌─〔 🎰 𝘼𝙕𝘼𝙍 〕
+│ ◈ $prefixcoinflip • $prefixcf
+│ ◈ $prefixcasino • $prefixslot
+│ ◈ $prefixroulette • $prefixruleta
+│ ◈ $prefixppt
+└────────────────────
+
+┌─〔 🎁 𝙍𝙀𝙌𝙐𝙀𝙉𝙎𝘼𝙎 〕
+│ ◈ $prefixdaily
+│ ◈ $prefixweekly
+│ ◈ $prefixmonthly
+│ ◈ $prefixcofre
+└────────────────────
+
+┌─〔 ⚔️ 𝙍𝙀𝙄𝙉𝙊 〕
+│ ◈ $prefixaventura • $prefixadventure
+│ ◈ $prefixdungeon • $prefixmazmorra
+│ ◈ $prefixheal • $prefixcurar
+│ ◈ $prefixsteal • $prefixrobar
+│ ◈ $prefixslut
+└────────────────────
+
+┌─〔 📊 𝙍𝘼𝙉𝙆 & 𝘿𝘼𝙏𝙊𝙎 〕
+│ ◈ $prefixeconomyboard • $prefixbaltop
+│ ◈ $prefixeconomyinfo • $prefixeinfo
+│ ◈ $prefixmath • $prefixmates
+└────────────────────
+
+╰━━━〔 ✦ 𝙍𝙞𝙘𝙝 𝙎𝙮𝙨𝙩𝙚𝙢 ✦ 〕━━━⬣`,
 gacha: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *GACHA* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
 > ✐ Comandos de Gacha para reclamar y intercambiar personajes.
 ꕤ *$prefixbuycharacter » $prefixbuychar » $prefixbuyc* + <waifu>
