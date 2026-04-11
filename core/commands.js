@@ -1,13 +1,16 @@
 export const bodyMenu = `> 𖧧 ¡Hola! *@$sender*, Soy *DRAKE*, Aquí tienes la lista de comandos$cat
-┌[ DRAKE_BOT ]─────────┐
-│ > DEV: ${owner}      │
-│ > TYPE: ${botType}   │
-│ > VER: 3.0_LATEST    │
-│ > SYS: ${device}     │
-│ > TIME: ${tiempo}    │
-│ > USERS: ${users}    │
-└[ STATUS: ONLINE ]────┘
->>> socket.connect(${prefixcode})`
+
+╭┈ࠢ͜┅ࠦ͜͜╾݊͜─ؕ͜─ׄ͜─֬͜─֟͜─֫͜─ׄ͜─ؕ͜─݊͜┈ࠦ͜┅ࠡ͜͜┈࠭͜͜۰۰͜۰
+│✿ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ::* $owner
+│ꕥ *ᴛʏᴘᴇ ::* $botType
+│⸙ *ᴠᴇʀsɪᴏɴ ::* ^3.0 - Latest
+│⚘ *sʏsᴛᴇᴍ/ᴏᴘʀ ::* $device
+│○ *ᴛɪᴍᴇ ::* $tiempo, $tempo
+│𓏸 *ᴜsᴇʀs ::* $users
+│○ *ᴜʀʟ ::* $link
+╰ׅ┈ࠢ͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴ ⋱࣭ ᩴ  ⋮֔   ᩴ ⋰╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜┈ࠢ͜╯ׅ
+> Vincula un *Socket* con tu número utilizando *$prefixqr* o *$prefixcode*.
+‧꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷︶꒷˚₊‧꒷꒥꒷︶꒷‧`
 export const menuObject = {
 economia: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ECONOMY* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
 > ✐ Comandos de Economía para ganar dinero y divertirte con tus amigos.
