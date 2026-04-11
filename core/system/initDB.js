@@ -11,7 +11,7 @@ function initDB(m, client) {
   settings.nameid ??= "'ೃ࿔ ყµҡเ ωαɓσƭ'ร - σƒƒเ૮เαℓ ૮ɦαɳɳεℓ .ೃ࿐"
   settings.type ??= 'Owner'
   settings.link ??= 'https://api.yuki-wabot.my.id'
-  settings.banner ??= 'https://i.postimg.cc/qBGN8dDv/file-000000003d5871f59a50c6c72f709fe0.png'
+  settings.banner ??= 'https://i.postimg.cc/tJ0vGf5V/IMG-20260410-WA0720.jpg'
   settings.icon ??= 'https://cdn.yuki-wabot.my.id/files/PJDp.jpeg'
   settings.currency ??= 'Yenes'
   settings.namebot ??= 'Yuki'
