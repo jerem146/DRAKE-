@@ -74,40 +74,29 @@ export default {
       for (const [key, value] of Object.entries(replacements)) {
         menu = menu.replace(new RegExp(`\\${key}`, 'g'), value);
       }
-        await client.sendMessage(m.chat, banner.includes('.mp4') || banner.includes('.webm') ? {
-            video: { url: banner },
-            gifPlayback: true,
-            caption: menu,
-            contextInfo: {
-              mentionedJid: [m.sender],
-              isForwarded: true,
-              forwardedNewsletterMessageInfo: {
-                newsletterJid: canalId,
-                serverMessageId: '',
-                newsletterName: canalName
-              }
-            }
-          } : {
-            text: menu,
-            contextInfo: {
-              mentionedJid: [m.sender],
-              isForwarded: true,
-              forwardedNewsletterMessageInfo: {
-                newsletterJid: canalId,
-                serverMessageId: '',
-                newsletterName: canalName
-              },
-              externalAdReply: {
-                title: botname,
-                body: `${namebot}, mᥲძᥱ ᥕі𝗍һ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜`,
-                showAdAttribution: false,
-                thumbnailUrl: banner,
-                mediaType: 1,
-                previewType: 0,
-                renderLargerThumbnail: true
-              }
-            }
-          }, { quoted: m });
+        const bannerUrl = 'https://i.postimg.cc/tJ0vGf5V/IMG-20260410-WA0720.jpg';
+
+await client.sendMessage(m.chat, {
+  image: { url: bannerUrl },
+  caption: menu,
+  contextInfo: {
+    mentionedJid: [m.sender],
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: canalId,
+      serverMessageId: '',
+      newsletterName: canalName
+    },
+    externalAdReply: {
+      title: botname,
+      body: `${namebot}, mᥲძᥱ ᥕі𝗍һ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜`,
+      showAdAttribution: false,
+      thumbnailUrl: bannerUrl,
+      mediaType: 1,
+      renderLargerThumbnail: true
+    }
+  }
+}, { quoted: m });
     } catch (e) {
       await m.reply(`> An unexpected error occurred while executing command *${usedPrefix + command}*. Please try again or contact support if the issue persists.\n> [Error: *${e.message}*]`)
     }
