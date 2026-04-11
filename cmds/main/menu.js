@@ -86,14 +86,6 @@ await client.sendMessage(m.chat, {
       newsletterJid: canalId,
       serverMessageId: '',
       newsletterName: canalName
-    },
-    externalAdReply: {
-      title: botname,
-      body: `${namebot}, mᥲძᥱ ᥕі𝗍һ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜`,
-      showAdAttribution: false,
-      thumbnailUrl: bannerUrl,
-      mediaType: 1,
-      renderLargerThumbnail: true
     }
   }
 }, { quoted: m });
