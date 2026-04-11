@@ -7,7 +7,7 @@ global.botNumber = ''
 
 global.sessionName = 'Sessions/Owner'
 global.version = '^2.0 - Latest'
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"
+global.dev = "JEREMY"
 global.links = {
 api: 'https://api.yuki-wabot.my.id',
 channel: "https://whatsapp.com/channel/0029Vb64nWqLo4hb8cuxe23n",
