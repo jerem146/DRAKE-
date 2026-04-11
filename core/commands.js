@@ -1,16 +1,20 @@
 export const bodyMenu = `> 𖧧 ¡Hola! *@$sender*, Soy *DRAKE*, Aquí tienes la lista de comandos$cat
 
-╭┈ࠢ͜┅ࠦ͜͜╾݊͜─ؕ͜─ׄ͜─֬͜─֟͜─֫͜─ׄ͜─ؕ͜─݊͜┈ࠦ͜┅ࠡ͜͜┈࠭͜͜۰۰͜۰
-│✿ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ::* $owner
-│ꕥ *ᴛʏᴘᴇ ::* $botType
-│⸙ *ᴠᴇʀsɪᴏɴ ::* ^3.0 - Latest
-│⚘ *sʏsᴛᴇᴍ/ᴏᴘʀ ::* $device
-│○ *ᴛɪᴍᴇ ::* $tiempo, $tempo
-│𓏸 *ᴜsᴇʀs ::* $users
-│○ *ᴜʀʟ ::* $link
-╰ׅ┈ࠢ͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴ ⋱࣭ ᩴ  ⋮֔   ᩴ ⋰╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜┈ࠢ͜╯ׅ
-> Vincula un *Socket* con tu número utilizando *$prefixqr* o *$prefixcode*.
-‧꒷︶꒷꒥꒷‧₊˚꒷︶꒷꒥꒷︶꒷˚₊‧꒷꒥꒷︶꒷‧`
+╭━━━〔 ✦ 𝙄𝙉𝙁𝙊 - 𝘽𝙊𝙏 ✦ 〕━━━⬣
+┃❖ ᴅᴇᴠᴇʟᴏᴘᴇʀ : $owner
+┃❖ ᴛʏᴘᴇ       : $botType
+┃❖ ᴠᴇʀsɪᴏɴ    : 3.0 〔 Latest 〕
+┃❖ sʏsᴛᴇᴍ     : $device
+┃❖ ᴛɪᴍᴇ       : $tiempo
+┃❖ ᴜsᴇʀs      : $users
+┃❖ ᴜʀʟ        : $link
+╰━━━〔 ⚘ 𝘾𝘼𝙍𝙇𝙔 - 𝘽𝙊𝙏 ⚘ 〕━━━⬣
+
+✦ Vincula tu número de forma segura:
+┃➤ Usa: $prefixqr
+┃➤ O también: $prefixcode
+
+╰─❖ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 ᗪ卂尺Ҝ ❖─╯`
 export const menuObject = {
 economia: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ECONOMY* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
 > ✐ Comandos de Economía para ganar dinero y divertirte con tus amigos.
