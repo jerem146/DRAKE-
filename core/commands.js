@@ -1,18 +1,13 @@
 export const bodyMenu = `> 𖧧 ¡Hola! *@$sender*, Soy *DRAKE*, Aquí tienes la lista de comandos$cat
-
-╔═━「 ◆ DRAKE SYSTEM ◆ 」━═╗
-║ 
-╠⟆ ᴅᴇᴠ :: @${owner}
-╠⟆ ᴍᴏᴅᴇ :: ${botType} 
-╠⟆ ᴠᴇʀ :: v3.0_LATEST
-╠⟆ ᴏs :: ${device}
-╠⟆ ᴛɪᴍᴇ :: ${tiempo} | ${tempo}
-╠⟆ ᴜsᴇʀs :: ${users}
-╠⟆ ʟɪɴᴋ :: ${link}
-║
-╚═━「 CONNECTING... 」━═╝
-> Inicia sesión vía Socket: ${prefixqr} / ${prefixcode}
-[█▒▒▒▒▒▒▒▒▒] 10% LOADING...`
+┌[ DRAKE_BOT ]─────────┐
+│ > DEV: ${owner}      │
+│ > TYPE: ${botType}   │
+│ > VER: 3.0_LATEST    │
+│ > SYS: ${device}     │
+│ > TIME: ${tiempo}    │
+│ > USERS: ${users}    │
+└[ STATUS: ONLINE ]────┘
+>>> socket.connect(${prefixcode})`
 export const menuObject = {
 economia: `╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ECONOMY* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
 > ✐ Comandos de Economía para ganar dinero y divertirte con tus amigos.
