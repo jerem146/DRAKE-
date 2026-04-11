@@ -3,7 +3,7 @@ import { getDevice } from '@whiskeysockets/baileys';
 import fs from 'fs';
 import axios from 'axios';
 import moment from 'moment-timezone';
-import { bodyMenu, menuObject } from '../../lib/commands.js';
+import { bodyMenu, menuObject } from '../../core/commands.js';
 
 function normalize(text = '') {
   text = text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
@@ -23,10 +23,7 @@ export default {
       const botSettings = global.db.data.settings[botId] || {};
       const botname = botSettings.botname || '';
       const namebot = botSettings.namebot || '';
-
-      // LINK DIRECTO DEL BANNER
-      const banner = 'https://i.postimg.cc/qBGN8dDv/file-000000003d5871f59a50c6c72f709fe0.png';
-
+      const banner = botSettings.banner || '';
       const owner = botSettings.owner || '';
       const canalId = botSettings.id || '';
       const canalName = botSettings.nameid || '';
@@ -47,11 +44,12 @@ export default {
         nsfw: ['nsfw', '+18'],
         profile: ['profile', 'perfil'],
         sockets: ['sockets', 'bots'],
+        stickers: ['stickers', 'sticker'],
         utils: ['utils', 'utilidades', 'herramientas']
       };
       const input = normalize(args[0] || '');
       const cat = Object.keys(alias).find(k => alias[k].map(normalize).includes(input));
-      const category = `${cat ? ` para \`${cat}\`` : '. *(˶ᵔ ᵕ ᵔ˶)*'}`;
+      const category = `${cat ? ` para \`${cat}\`` : '. *(˶ᵔ ᵕ ᵔ˶)*'}`
       if (args[0] && !cat) {      
         return m.reply(`《✧》 La categoria *${args[0]}* no existe, las categorias disponibles son: *${Object.keys(alias).join(', ')}*.\n> Para ver la lista completa escribe *${usedPrefix}menu*\n> Para ver los comandos de una categoría escribe *${usedPrefix}menu [categoría]*\n> Ejemplo: *${usedPrefix}menu anime*`);
       }
@@ -76,11 +74,21 @@ export default {
       for (const [key, value] of Object.entries(replacements)) {
         menu = menu.replace(new RegExp(`\\${key}`, 'g'), value);
       }
-
-      // ENVIAR COMO IMAGEN "DIRECTA" CON EL DISEÑO DE CANAL Y NOMBRES
-      await client.sendMessage(m.chat, {
-            image: { url: banner },
+        await client.sendMessage(m.chat, banner.includes('.mp4') || banner.includes('.webm') ? {
+            video: { url: banner },
+            gifPlayback: true,
             caption: menu,
+            contextInfo: {
+              mentionedJid: [m.sender],
+              isForwarded: true,
+              forwardedNewsletterMessageInfo: {
+                newsletterJid: canalId,
+                serverMessageId: '',
+                newsletterName: canalName
+              }
+            }
+          } : {
+            text: menu,
             contextInfo: {
               mentionedJid: [m.sender],
               isForwarded: true,
@@ -91,18 +99,17 @@ export default {
               },
               externalAdReply: {
                 title: botname,
-                body: `${namebot}, Yami tu diosa UWU🥰🥺`,
+                body: `${namebot}, mᥲძᥱ ᥕі𝗍һ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜`,
                 showAdAttribution: false,
                 thumbnailUrl: banner,
                 mediaType: 1,
-                sourceUrl: link,
-                renderLargerThumbnail: false 
+                previewType: 0,
+                renderLargerThumbnail: true
               }
             }
           }, { quoted: m });
-
     } catch (e) {
-      await m.reply(`> Error: *${e.message}*`)
+      await m.reply(`> An unexpected error occurred while executing command *${usedPrefix + command}*. Please try again or contact support if the issue persists.\n> [Error: *${e.message}*]`)
     }
   }
 };
