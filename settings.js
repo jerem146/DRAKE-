@@ -16,30 +16,48 @@ global.sessionName = 'Sessions/Owner'
 
 /*━━━━━━━━━━━【 INFO BOT 】━━━━━━━━━━━*/
 global.version = 'v2.0'
-global.dev = 'JEREMY'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝔇ĕ𝐬†𝓻⊙γ𒆜'
 
 global.links = {
   api: 'https://api.yuki-wabot.my.id'
 }
 
-/*━━━━━━━━━━━【 CANAL / IDENTIDAD 】━━━━━━━━━━━*/
+/*━━━━━━━━━━━【 IDENTIDAD 】━━━━━━━━━━━*/
 global.my = {
-  ch: '',
-  name: ''
+  ch: '120363401404146384@newsletter',
+  name: 'Yuki Wabot - Official Channel'
 }
 
-/*━━━━━━━━━━━【 MENSAJES DEL SISTEMA 】━━━━━━━━━━━*/
+/*━━━━━━━━━━━【 MENSAJES 】━━━━━━━━━━━*/
 global.mess = {
   socket: '《✧》 Solo para conexión Socket.',
   admin: '《✧》 Solo administradores.',
   botAdmin: '《✧》 El bot debe ser admin.'
 }
 
-/*━━━━━━━━━━━【 APIs CONFIG 】━━━━━━━━━━━*/
+/*━━━━━━━━━━━【 APIs 】━━━━━━━━━━━*/
 global.APIs = {
   axi: "https://apiaxi.i11.eu",
   vreden: "https://api.vreden.web.id",
   nekolabs: "https://api.nekolabs.web.id",
   siputzx: "https://api.siputzx.my.id",
   delirius: "https://api.delirius.store",
-  ootaiz
+  ootaizumi: "https://api.ootaizumi.web.id",
+  apifaa: "https://api-faa.my.id",
+  xyro: "https://api.xyro.site",
+  yupra: "https://api.yupra.my.id",
+  stellar: "https://api.yuki-wabot.my.id"
+}
+
+global.APIKeys = {
+  "https://api.yuki-wabot.my.id": "YukiBot-MD"
+}
+
+/*━━━━━━━━━━━【 AUTO-RELOAD 】━━━━━━━━━━━*/
+const file = fileURLToPath(import.meta.url)
+
+watchFile(file, () => {
+  unwatchFile(file)
+  console.log('♻️ Archivo actualizado:', file)
+  import(`${file}?update=${Date.now()}`)
+})
